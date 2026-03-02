@@ -1,0 +1,78 @@
+:root {
+  color-scheme: light;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  background: #f8f7f3;
+  color: #1f2430;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 3rem 1.25rem 4rem;
+}
+
+.hero h1 {
+  margin: 0.3rem 0 0.75rem;
+  font-size: clamp(2rem, 3.5vw, 3rem);
+}
+
+.hero p {
+  margin: 0;
+  max-width: 42ch;
+  color: #4a5468;
+}
+
+.eyebrow {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.82rem;
+  color: #7b5cff;
+  font-weight: 700;
+}
+
+.gridSection {
+  margin-top: 2.4rem;
+}
+
+.gridSection h2 {
+  margin-bottom: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  background: white;
+  padding: 1rem;
+}
+
+.card h3 {
+  margin: 0.2rem 0 0.35rem;
+  font-size: 1rem;
+}
+
+.category {
+  margin: 0;
+  color: #6b7280;
+  font-size: 0.85rem;
+}
+
+.price {
+  margin: 0;
+  font-weight: 700;
+  color: #111827;
+}

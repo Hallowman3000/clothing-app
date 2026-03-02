@@ -1,20 +1,25 @@
 # Clothing App
 
-This repository has been refreshed with a modern baseline project setup so future feature work can be added consistently.
+A starter storefront built with **React** and **Next.js**.
 
-## What's Included
+## Stack
 
-- Repository-wide formatting defaults via `.editorconfig`
-- Safer Git behavior via `.gitattributes`
-- A practical starter `.gitignore`
-- Changelog tracking for future releases
+- Next.js 14 (App Router)
+- React 18
+- ESLint with `next/core-web-vitals`
 
-## Next Steps
+## Getting Started
 
-1. Add your application source code (frontend/backend) under agreed directories.
-2. Add runtime and test tooling for your chosen stack.
-3. Wire CI checks (lint, test, build) once implementation files are present.
+```bash
+npm install
+npm run dev
+```
 
-## Project Status
+Open [http://localhost:3000](http://localhost:3000) to view the app.
 
-Scaffold and standards are in place; application implementation is pending.
+## Available Scripts
+
+- `npm run dev` – start the local dev server
+- `npm run build` – build for production
+- `npm run start` – run the production server
+- `npm run lint` – lint the project
