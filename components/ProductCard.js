@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import SmartImage from '@/components/SmartImage';
 import Link from 'next/link';
 import AddToCartButton from '@/components/AddToCartButton';
 
@@ -6,7 +6,7 @@ export default function ProductCard({ product }) {
   return (
     <article className="productCard">
       <Link href={`/product/${product.slug}`} className="imageWrap">
-        <Image src={product.image} alt={product.name} fill sizes="(max-width: 768px) 100vw, 25vw" />
+        <SmartImage src={product.image} alt={product.name} fill sizes="(max-width: 768px) 100vw, 25vw" />
       </Link>
       <div className="cardBody">
         <p className="category">{product.category}</p>

@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import SmartImage from '@/components/SmartImage';
 import { notFound } from 'next/navigation';
 import AddToCartButton from '@/components/AddToCartButton';
 import { getProductBySlug } from '@/lib/catalog';
@@ -10,7 +10,7 @@ export default function ProductDetailPage({ params }) {
   return (
     <section className="productDetail">
       <div className="detailImageWrap">
-        <Image src={product.image} alt={product.name} fill sizes="(max-width: 900px) 100vw, 50vw" />
+        <SmartImage src={product.image} alt={product.name} fill sizes="(max-width: 900px) 100vw, 50vw" />
       </div>
       <div>
         <p className="eyebrow">{product.category}</p>
