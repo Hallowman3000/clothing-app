@@ -63,10 +63,10 @@ export default function Home() {
 
       <section className="panel twoCol">
         <div>
-          <h2>Figma-style components, production-ready implementation</h2>
+          <h2>Style-forward shopping, designed for 2026 wardrobes</h2>
           <p className="muted">
-            Each section maps to responsive web elements: hero split, category chips, product cards,
-            social proof, and conversion-focused CTA modules.
+            Explore trend-led essentials, smart layers, and occasion-ready looks curated to match how
+            fashion feels in 2026.
           </p>
         </div>
         <div>
