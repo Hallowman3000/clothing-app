@@ -11,10 +11,10 @@ export default function Home() {
     <>
       <section className="heroGrid">
         <div>
-          <p className="eyebrow">Spring / Summer 2026</p>
-          <h1>Full-stack fashion commerce with editorial-grade UI.</h1>
+          <p className="eyebrow">Trend Report / Spring Summer 2026</p>
+          <h1>Wear your confidence with timeless fashion made for every moment.</h1>
           <p className="muted">
-            Discover elevated essentials, curated looks, and responsive shopping across devices.
+            Explore statement silhouettes, everyday essentials, and runway-inspired pieces styled for real life.
           </p>
           <div className="ctaRow">
             <Link className="btn primary" href="/shop">
