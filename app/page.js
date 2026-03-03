@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import SmartImage from '@/components/SmartImage';
 import Link from 'next/link';
 import NewsletterForm from '@/components/NewsletterForm';
 import ProductCard from '@/components/ProductCard';
@@ -26,7 +26,7 @@ export default function Home() {
           </div>
         </div>
         <div className="heroImageWrap">
-          <Image
+          <SmartImage
             src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=1400&q=80"
             alt="Fashion model in premium neutral outfit"
             fill
