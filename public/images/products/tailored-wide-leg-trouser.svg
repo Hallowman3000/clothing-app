@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Tailored Wide-Leg Trouser</title>
+  <desc id="desc">Stylized illustration for the Tailored Wide-Leg Trouser product.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2d313a"/>
+      <stop offset="100%" stop-color="#596071"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1600" fill="url(#bg)"/>
+  <rect x="260" y="280" width="680" height="960" rx="80" fill="#f4f5f8" opacity="0.12"/>
+  <text x="600" y="760" text-anchor="middle" font-size="62" fill="#e7ecf8" font-family="Arial, sans-serif">Tailored Trouser</text>
+</svg>

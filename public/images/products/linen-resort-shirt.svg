@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Linen Resort Shirt</title>
+  <desc id="desc">Stylized illustration for the Linen Resort Shirt product.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#efe7d7"/>
+      <stop offset="100%" stop-color="#d8c8a8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1600" fill="url(#bg)"/>
+  <rect x="260" y="280" width="680" height="960" rx="80" fill="#f8f4ea" opacity="0.55"/>
+  <text x="600" y="760" text-anchor="middle" font-size="74" fill="#6c5b3d" font-family="Arial, sans-serif">Linen Resort Shirt</text>
+</svg>

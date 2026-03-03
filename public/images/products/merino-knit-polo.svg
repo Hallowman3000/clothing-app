@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Merino Knit Polo</title>
+  <desc id="desc">Stylized illustration for the Merino Knit Polo product.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#cec8bd"/>
+      <stop offset="100%" stop-color="#a39d90"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1600" fill="url(#bg)"/>
+  <circle cx="600" cy="800" r="380" fill="#f6f3ee" opacity="0.4"/>
+  <text x="600" y="820" text-anchor="middle" font-size="76" fill="#4f4a42" font-family="Arial, sans-serif">Merino Polo</text>
+</svg>

@@ -27,8 +27,8 @@ export default function Home() {
         </div>
         <div className="heroImageWrap">
           <Image
-            src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=1400&q=80"
-            alt="Fashion model in premium neutral outfit"
+            src="/images/hero-fashion.svg"
+            alt="Abstract fashion hero artwork in neutral tones"
             fill
             priority
             sizes="(max-width: 900px) 100vw, 50vw"
@@ -71,7 +71,7 @@ export default function Home() {
         </div>
         <div>
           <h3>Image sourcing</h3>
-          <p className="muted">Catalog imagery is sourced from free Unsplash links in the product model.</p>
+          <p className="muted">Catalog imagery is stored locally in the repository and served from /public/images.</p>
         </div>
       </section>
 

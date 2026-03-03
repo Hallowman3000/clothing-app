@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Structured Denim Jacket</title>
+  <desc id="desc">Stylized illustration for the Structured Denim Jacket product.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#204e7a"/>
+      <stop offset="100%" stop-color="#10314d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1600" fill="url(#bg)"/>
+  <rect x="240" y="260" width="720" height="1080" rx="90" fill="#4a78a5" opacity="0.35"/>
+  <text x="600" y="820" text-anchor="middle" font-size="64" fill="#d5e6f7" font-family="Arial, sans-serif">Denim Jacket</text>
+</svg>

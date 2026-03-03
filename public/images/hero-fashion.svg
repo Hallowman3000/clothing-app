@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Fashion hero artwork</title>
+  <desc id="desc">Abstract fashion illustration used as home hero image.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eadfcd"/>
+      <stop offset="100%" stop-color="#bfa37f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1200" fill="url(#bg)"/>
+  <circle cx="1080" cy="360" r="240" fill="#fff" opacity="0.25"/>
+  <path d="M340 1030c50-290 130-430 240-500 95-60 205-68 320-30 130 42 215 145 280 290 48 106 70 175 82 240H340z" fill="#5b4f40" opacity="0.2"/>
+  <text x="160" y="250" font-size="92" fill="#524534" font-family="Arial, sans-serif">Atelier 2026</text>
+  <text x="160" y="340" font-size="52" fill="#6d5d46" font-family="Arial, sans-serif">Timeless silhouettes, local imagery.</text>
+</svg>

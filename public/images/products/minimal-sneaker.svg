@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Minimal Sneaker</title>
+  <desc id="desc">Stylized illustration for the Minimal Sneaker product.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8f8f8"/>
+      <stop offset="100%" stop-color="#d9d9d9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1600" fill="url(#bg)"/>
+  <path d="M270 980h660c90 0 150 70 150 140v40H270z" fill="#ffffff" opacity="0.85"/>
+  <text x="600" y="880" text-anchor="middle" font-size="76" fill="#666" font-family="Arial, sans-serif">Minimal Sneaker</text>
+</svg>
