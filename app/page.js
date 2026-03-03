@@ -27,7 +27,7 @@ export default function Home() {
         </div>
         <div className="heroImageWrap">
           <SmartImage
-            src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=1400&q=80"
+            src="/images/hero-fashion.svg"
             alt="Fashion model in premium neutral outfit"
             fill
             priority
@@ -71,7 +71,7 @@ export default function Home() {
         </div>
         <div>
           <h3>Image sourcing</h3>
-          <p className="muted">Catalog imagery is sourced from free Unsplash links in the product model.</p>
+          <p className="muted">Catalog imagery is bundled locally in the repository for reliable loading.</p>
         </div>
       </section>
 
