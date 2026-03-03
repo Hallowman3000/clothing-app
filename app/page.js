@@ -1,17 +1,85 @@
-import ProductGrid from '@/components/ProductGrid';
+import Image from 'next/image';
+import Link from 'next/link';
+import NewsletterForm from '@/components/NewsletterForm';
+import ProductCard from '@/components/ProductCard';
+import { products, categories } from '@/lib/catalog';
 
 export default function Home() {
+  const featured = products.filter((product) => product.featured);
+
   return (
-    <main className="container">
-      <section className="hero">
-        <p className="eyebrow">Spring Collection 2026</p>
-        <h1>Modern Essentials for Every Day</h1>
-        <p>
-          Clothing App is now powered by React and Next.js for a fast, scalable shopping
-          experience.
-        </p>
+    <>
+      <section className="heroGrid">
+        <div>
+          <p className="eyebrow">Spring / Summer 2026</p>
+          <h1>Full-stack fashion commerce with editorial-grade UI.</h1>
+          <p className="muted">
+            Discover elevated essentials, curated looks, and responsive shopping across devices.
+          </p>
+          <div className="ctaRow">
+            <Link className="btn primary" href="/shop">
+              Shop new arrivals
+            </Link>
+            <Link className="btn secondary" href="/cart">
+              View cart
+            </Link>
+          </div>
+        </div>
+        <div className="heroImageWrap">
+          <Image
+            src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=1400&q=80"
+            alt="Fashion model in premium neutral outfit"
+            fill
+            priority
+            sizes="(max-width: 900px) 100vw, 50vw"
+          />
+        </div>
       </section>
-      <ProductGrid />
-    </main>
+
+      <section className="panel">
+        <h2>Shop by category</h2>
+        <div className="chips">
+          {categories
+            .filter((entry) => entry !== 'All')
+            .map((entry) => (
+              <Link key={entry} href={`/shop?category=${entry}`} className="chip">
+                {entry}
+              </Link>
+            ))}
+        </div>
+      </section>
+
+      <section>
+        <div className="sectionHeading">
+          <h2>Featured now</h2>
+          <Link href="/shop">See all</Link>
+        </div>
+        <div className="productGrid">
+          {featured.map((product) => (
+            <ProductCard key={product.id} product={product} />
+          ))}
+        </div>
+      </section>
+
+      <section className="panel twoCol">
+        <div>
+          <h2>Figma-style components, production-ready implementation</h2>
+          <p className="muted">
+            Each section maps to responsive web elements: hero split, category chips, product cards,
+            social proof, and conversion-focused CTA modules.
+          </p>
+        </div>
+        <div>
+          <h3>Image sourcing</h3>
+          <p className="muted">Catalog imagery is sourced from free Unsplash links in the product model.</p>
+        </div>
+      </section>
+
+      <section className="panel">
+        <h2>Join Atelier updates</h2>
+        <p className="muted">Get drops, lookbooks, and styling notes first.</p>
+        <NewsletterForm />
+      </section>
+    </>
   );
 }
