@@ -21,9 +21,6 @@ export default function ProductDetailPage({ params }) {
         </p>
         <p className="muted">Sizes: {product.sizes.join(', ')}</p>
         <AddToCartButton productId={product.id} />
-        <p className="muted">
-          Free image source: <a href={product.sourceUrl}>Unsplash attribution</a>
-        </p>
       </div>
     </section>
   );

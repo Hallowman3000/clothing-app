@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1000" viewBox="0 0 1400 1000" role="img" aria-label="Fashion collection hero image">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8f3ec"/>
+      <stop offset="100%" stop-color="#e2d2bf"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="1000" fill="url(#bg)"/>
+  <ellipse cx="310" cy="680" rx="230" ry="250" fill="#b39d82" opacity="0.8"/>
+  <ellipse cx="710" cy="580" rx="260" ry="320" fill="#7d6b5d" opacity="0.8"/>
+  <ellipse cx="1100" cy="700" rx="220" ry="260" fill="#d7c8b5" opacity="0.9"/>
+  <text x="700" y="930" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="68" fill="#352c24">Atelier New Season</text>
+</svg>
