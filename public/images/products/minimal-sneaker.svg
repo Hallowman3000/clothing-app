@@ -1,12 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Sneaker">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#f7f7f6"/>
-      <stop offset="100%" stop-color="#ece9e4"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Minimal sneaker product image">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f2f4f7"/><stop offset="100%" stop-color="#dde3eb"/></linearGradient></defs>
   <rect width="900" height="1200" fill="url(#bg)"/>
-  <rect x="180" y="220" width="540" height="720" rx="36" fill="#d8d8d8" opacity="0.95"/>
-  <rect x="250" y="310" width="400" height="530" rx="24" fill="#ffffff" opacity="0.15"/>
-  <text x="450" y="1020" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="56" fill="#2f2a23">Sneaker</text>
+  <ellipse cx="470" cy="900" rx="320" ry="46" fill="#000" opacity="0.14"/>
+  <path d="M180 760l150-132h260l166 84 48 64-14 66H232z" fill="#fbfcfd"/>
+  <path d="M182 820h610l-16 70H220z" fill="#d8dee7"/>
+  <path d="M212 890h562l24 34H246z" fill="#e85b5b"/>
+  <path d="M350 628c22 46 120 66 220 64" fill="none" stroke="#cfd6df" stroke-width="10" stroke-linecap="round"/>
+  <g stroke="#b7c0cb" stroke-width="7" stroke-linecap="round"><line x1="376" y1="700" x2="426" y2="730"/><line x1="420" y1="686" x2="470" y2="716"/><line x1="464" y1="674" x2="514" y2="704"/><line x1="508" y1="666" x2="558" y2="696"/></g>
 </svg>

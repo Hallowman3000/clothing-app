@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Trouser">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Tailored wide-leg trouser product image">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#f7f7f6"/>
-      <stop offset="100%" stop-color="#ece9e4"/>
-    </linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#eceff5"/><stop offset="100%" stop-color="#d9dfea"/></linearGradient>
   </defs>
   <rect width="900" height="1200" fill="url(#bg)"/>
-  <rect x="180" y="220" width="540" height="720" rx="36" fill="#4a4f57" opacity="0.95"/>
-  <rect x="250" y="310" width="400" height="530" rx="24" fill="#ffffff" opacity="0.15"/>
-  <text x="450" y="1020" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="56" fill="#2f2a23">Trouser</text>
+  <ellipse cx="450" cy="1060" rx="240" ry="40" fill="#000" opacity="0.14"/>
+  <path d="M280 220h340l60 760-170 25-60-380-60 380-170-25z" fill="#4d525d"/>
+  <rect x="280" y="220" width="340" height="86" rx="22" fill="#383d46"/>
+  <line x1="450" y1="306" x2="450" y2="970" stroke="#646b78" stroke-width="7"/>
+  <line x1="360" y1="306" x2="330" y2="980" stroke="#5a616d" stroke-width="4" opacity="0.5"/>
+  <line x1="540" y1="306" x2="570" y2="980" stroke="#5a616d" stroke-width="4" opacity="0.5"/>
 </svg>

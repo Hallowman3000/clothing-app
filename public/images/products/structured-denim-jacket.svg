@@ -1,12 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Denim Jacket">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#f7f7f6"/>
-      <stop offset="100%" stop-color="#ece9e4"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Structured denim jacket product image">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e5edf8"/><stop offset="100%" stop-color="#c3d3e8"/></linearGradient></defs>
   <rect width="900" height="1200" fill="url(#bg)"/>
-  <rect x="180" y="220" width="540" height="720" rx="36" fill="#35526f" opacity="0.95"/>
-  <rect x="250" y="310" width="400" height="530" rx="24" fill="#ffffff" opacity="0.15"/>
-  <text x="450" y="1020" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="56" fill="#2f2a23">Denim Jacket</text>
+  <ellipse cx="450" cy="1050" rx="230" ry="42" fill="#000" opacity="0.13"/>
+  <path d="M286 250h328l92 136-78 52-44-74v500c0 44-36 80-80 80H396c-44 0-80-36-80-80V364l-44 74-78-52z" fill="#3f6594"/>
+  <path d="M350 250l100 110 100-110" fill="none" stroke="#2d4c72" stroke-width="14" stroke-linecap="round"/>
+  <line x1="450" y1="360" x2="450" y2="910" stroke="#274367" stroke-width="8"/>
+  <rect x="296" y="560" width="308" height="60" rx="18" fill="#2f5178"/>
+  <rect x="314" y="420" width="116" height="92" rx="14" fill="#547dad"/>
+  <rect x="470" y="420" width="116" height="92" rx="14" fill="#547dad"/>
 </svg>

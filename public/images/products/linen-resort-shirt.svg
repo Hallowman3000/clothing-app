@@ -1,12 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Shirt">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Linen resort shirt product image">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#f7f7f6"/>
-      <stop offset="100%" stop-color="#ece9e4"/>
+      <stop offset="0%" stop-color="#f6efe2"/>
+      <stop offset="100%" stop-color="#e8dbc6"/>
     </linearGradient>
   </defs>
   <rect width="900" height="1200" fill="url(#bg)"/>
-  <rect x="180" y="220" width="540" height="720" rx="36" fill="#d9c3a5" opacity="0.95"/>
-  <rect x="250" y="310" width="400" height="530" rx="24" fill="#ffffff" opacity="0.15"/>
-  <text x="450" y="1020" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="56" fill="#2f2a23">Shirt</text>
+  <ellipse cx="450" cy="1050" rx="220" ry="42" fill="#000" opacity="0.14"/>
+  <path d="M308 250h284l88 122-76 50-36-64v530c0 42-34 76-76 76H408c-42 0-76-34-76-76V358l-36 64-76-50 88-122z" fill="#dcc4a1"/>
+  <path d="M360 250l90 96 90-96" fill="none" stroke="#b9976f" stroke-width="14" stroke-linecap="round"/>
+  <line x1="450" y1="352" x2="450" y2="930" stroke="#b08c61" stroke-width="8"/>
+  <g fill="#9f7b52">
+    <circle cx="450" cy="450" r="11"/><circle cx="450" cy="530" r="11"/><circle cx="450" cy="610" r="11"/><circle cx="450" cy="690" r="11"/><circle cx="450" cy="770" r="11"/>
+  </g>
 </svg>
