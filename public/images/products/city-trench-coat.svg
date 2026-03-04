@@ -1,12 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Trench Coat">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#f7f7f6"/>
-      <stop offset="100%" stop-color="#ece9e4"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="City trench coat product image">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ede1cf"/><stop offset="100%" stop-color="#d4bf9f"/></linearGradient></defs>
   <rect width="900" height="1200" fill="url(#bg)"/>
-  <rect x="180" y="220" width="540" height="720" rx="36" fill="#9f8f6c" opacity="0.95"/>
-  <rect x="250" y="310" width="400" height="530" rx="24" fill="#ffffff" opacity="0.15"/>
-  <text x="450" y="1020" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="56" fill="#2f2a23">Trench Coat</text>
+  <ellipse cx="450" cy="1070" rx="250" ry="44" fill="#000" opacity="0.14"/>
+  <path d="M290 180h320l96 188-80 52-44-86v584c0 44-36 80-80 80H398c-44 0-80-36-80-80V334l-44 86-80-52z" fill="#b69564"/>
+  <path d="M352 180l98 136 98-136" fill="none" stroke="#8a6f47" stroke-width="14" stroke-linecap="round"/>
+  <rect x="300" y="566" width="300" height="56" rx="20" fill="#8f7248"/>
+  <g fill="#765d3a"><circle cx="372" cy="430" r="12"/><circle cx="528" cy="430" r="12"/><circle cx="372" cy="520" r="12"/><circle cx="528" cy="520" r="12"/><circle cx="372" cy="700" r="12"/><circle cx="528" cy="700" r="12"/></g>
 </svg>

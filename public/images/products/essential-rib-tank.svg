@@ -1,12 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Rib Tank">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#f7f7f6"/>
-      <stop offset="100%" stop-color="#ece9e4"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1200" viewBox="0 0 900 1200" role="img" aria-label="Essential rib tank product image">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f7f4ef"/><stop offset="100%" stop-color="#e5dfd2"/></linearGradient></defs>
   <rect width="900" height="1200" fill="url(#bg)"/>
-  <rect x="180" y="220" width="540" height="720" rx="36" fill="#e8e2d6" opacity="0.95"/>
-  <rect x="250" y="310" width="400" height="530" rx="24" fill="#ffffff" opacity="0.15"/>
-  <text x="450" y="1020" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="56" fill="#2f2a23">Rib Tank</text>
+  <ellipse cx="450" cy="1060" rx="190" ry="40" fill="#000" opacity="0.12"/>
+  <path d="M340 230h220c24 0 44 20 44 44v620c0 44-36 80-80 80H376c-44 0-80-36-80-80V274c0-24 20-44 44-44z" fill="#f0eadf"/>
+  <path d="M360 230a90 90 0 0 0 180 0" fill="#e0d8cb"/>
+  <rect x="404" y="230" width="92" height="112" rx="24" fill="#f7f4ef"/>
+  <g stroke="#d9cfbf" stroke-width="4" opacity="0.85">
+    <line x1="332" y1="380" x2="568" y2="380"/><line x1="328" y1="430" x2="572" y2="430"/><line x1="324" y1="480" x2="576" y2="480"/><line x1="320" y1="530" x2="580" y2="530"/><line x1="316" y1="580" x2="584" y2="580"/><line x1="312" y1="630" x2="588" y2="630"/><line x1="308" y1="680" x2="592" y2="680"/><line x1="304" y1="730" x2="596" y2="730"/><line x1="300" y1="780" x2="600" y2="780"/>
+  </g>
 </svg>
