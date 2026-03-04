@@ -45,6 +45,16 @@ a {
   gap: 0.9rem;
   padding-top: 1.4rem;
   padding-bottom: 1.6rem;
+  margin-top: 1rem;
+  background: #10261c;
+  border: 1px solid #1f3a2d;
+  border-radius: var(--radius);
+  color: #e7f4eb;
+}
+
+.siteFooter .panel {
+  background: #163126;
+  border-color: #2a4a3b;
 }
 
 .footerContact {
@@ -63,7 +73,7 @@ a {
 }
 
 .footerContact a {
-  color: var(--secondary);
+  color: #9ce7bb;
   font-weight: 600;
 }
 
@@ -73,7 +83,15 @@ a {
 
 .footerCopyright {
   font-size: 0.9rem;
-  color: var(--muted);
+  color: #b6cfbf;
+}
+
+.siteFooter .muted {
+  color: #b6cfbf;
+}
+
+.siteFooter .eyebrow {
+  color: #9ce7bb;
 }
 
 .siteHeader {
