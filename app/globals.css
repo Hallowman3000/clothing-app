@@ -40,6 +40,42 @@ a {
   padding: 1rem 1.2rem;
 }
 
+.siteFooter {
+  display: grid;
+  gap: 0.9rem;
+  padding-top: 1.4rem;
+  padding-bottom: 1.6rem;
+}
+
+.footerContact {
+  padding: 1.1rem;
+}
+
+.footerContactGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 0.7rem;
+}
+
+.footerContact h3 {
+  margin: 0 0 0.25rem;
+}
+
+.footerContact a {
+  color: var(--secondary);
+  font-weight: 600;
+}
+
+.footerMeta {
+  margin-top: 0.55rem;
+}
+
+.footerCopyright {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
 .siteHeader {
   display: flex;
   justify-content: space-between;
@@ -266,5 +302,9 @@ p {
 
   .siteHeader {
     flex-wrap: wrap;
+  }
+
+  .footerContactGrid {
+    grid-template-columns: 1fr;
   }
 }
