@@ -6,6 +6,7 @@ A starter storefront built with **React** and **Next.js**.
 
 - Next.js 14 (App Router)
 - React 18
+- Tailwind CSS (configured with PostCSS + Autoprefixer)
 - ESLint with `next/core-web-vitals`
 
 ## Getting Started
