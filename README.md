@@ -23,3 +23,18 @@ Open [http://localhost:3000](http://localhost:3000) to view the app.
 - `npm run build` – build for production
 - `npm run start` – run the production server
 - `npm run lint` – lint the project
+
+## Installing additional npm packages in restricted networks
+
+If your environment returns `403 Forbidden` when installing packages (for example `tailwindcss`), use the helper command:
+
+```bash
+npm run add -- tailwindcss
+```
+
+If public npm is blocked, point to your allowed internal registry/mirror:
+
+```bash
+NPM_REGISTRY_URL=https://<your-internal-registry>/npm/ npm run add -- tailwindcss postcss autoprefixer
+```
+
