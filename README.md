@@ -17,6 +17,18 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) to view the app.
 
+## Environment Configuration
+
+1. Copy `.env.example` to `.env.local`.
+2. Fill in real values in `.env.local` (never commit secrets).
+
+```bash
+cp .env.example .env.local
+```
+
+The repository is configured to ignore local env files (`.env`, `.env.*`) while still allowing `.env.example` to be committed for safe defaults.
+
+
 ## Available Scripts
 
 - `npm run dev` – start the local dev server
