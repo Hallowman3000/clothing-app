@@ -6,6 +6,7 @@ A starter storefront built with **React** and **Next.js**.
 
 - Next.js 14 (App Router)
 - React 18
+- Tailwind CSS (configured with PostCSS + Autoprefixer)
 - ESLint with `next/core-web-vitals`
 
 ## Getting Started
@@ -16,6 +17,18 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) to view the app.
+
+## Environment Configuration
+
+1. Copy `.env.example` to `.env.local`.
+2. Fill in real values in `.env.local` (never commit secrets).
+
+```bash
+cp .env.example .env.local
+```
+
+The repository is configured to ignore local env files (`.env`, `.env.*`) while still allowing `.env.example` to be committed for safe defaults.
+
 
 ## Available Scripts
 
