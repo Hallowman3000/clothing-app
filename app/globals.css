@@ -27,7 +27,7 @@ a {
 
 .container {
   max-width: 1180px;
-  margin: 0 auto;
+  margin: 0;
   padding: 2rem 1.2rem 4rem;
   display: grid;
   gap: 1.5rem;
@@ -36,7 +36,7 @@ a {
 .siteHeader,
 .siteFooter {
   max-width: 1180px;
-  margin: 0 auto;
+  margin: 0;
   padding: 1rem 1.2rem;
 }
 
@@ -114,14 +114,51 @@ a {
   font-weight: 800;
 }
 
-.heroGrid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
+.heroBanner {
+  position: relative;
+  min-height: clamp(380px, 62vh, 620px);
+  border-radius: var(--radius);
+  overflow: hidden;
+  display: flex;
   align-items: center;
+  justify-content: flex-start;
+  padding: 1.1rem;
 }
 
-.heroImageWrap,
+.heroOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, rgba(16, 38, 28, 0.68) 18%, rgba(16, 38, 28, 0.36) 56%, rgba(16, 38, 28, 0.18) 100%);
+  pointer-events: none;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 760px);
+  margin: 0;
+  display: grid;
+  gap: 0.6rem;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  color: #f6fbf8;
+  text-align: left;
+}
+
+.heroContent .eyebrow {
+  color: #c6f1d5;
+}
+
+.heroContent .muted {
+  color: #e1efe7;
+}
+
+.heroLead {
+  max-width: 58ch;
+}
+
 .imageWrap,
 .detailImageWrap {
   position: relative;
@@ -311,7 +348,6 @@ p {
 }
 
 @media (max-width: 900px) {
-  .heroGrid,
   .twoCol,
   .productDetail,
   .cartLayout {

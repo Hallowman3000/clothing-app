@@ -9,11 +9,20 @@ export default function Home() {
 
   return (
     <>
-      <section className="heroGrid">
-        <div>
+      <section className="heroBanner">
+        <SmartImage
+          src="/images/uploads/hero.jpg"
+          alt="Fashion model showcasing the latest collection"
+          fill
+          priority
+          sizes="100vw"
+          style={{ objectFit: 'cover', objectPosition: 'center center' }}
+        />
+        <div className="heroOverlay" />
+        <div className="heroContent">
           <p className="eyebrow">Trend Report / Spring Summer 2026</p>
           <h1>Wear your confidence with timeless fashion made for every moment.</h1>
-          <p className="muted">
+          <p className="muted heroLead">
             Explore statement silhouettes, everyday essentials, and runway-inspired pieces styled for real life.
           </p>
           <div className="ctaRow">
@@ -24,15 +33,6 @@ export default function Home() {
               View cart
             </Link>
           </div>
-        </div>
-        <div className="heroImageWrap">
-          <SmartImage
-            src="/images/hero-fashion.svg"
-            alt="Fashion model in premium neutral outfit"
-            fill
-            priority
-            sizes="(max-width: 900px) 100vw, 50vw"
-          />
         </div>
       </section>
 
