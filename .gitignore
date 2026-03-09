@@ -35,3 +35,7 @@ __pycache__/
 # Misc
 .tmp/
 tmp/
+
+# Next.js
+.next/
+out/
